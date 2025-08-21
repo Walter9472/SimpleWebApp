@@ -9,6 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Entity
+@AllArgsConstructor
+@Data
 public class Product {
 
     @Id
